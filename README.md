@@ -118,37 +118,40 @@ uvicorn app.main:app --reload --port 8000
 
 - 🔵 `GET` Obtener lista de candidatos
 
-   ![image](https://github.com/user-attachments/assets/c7724089-2c2f-4aab-95b5-c60dd0b0ac33)
+   ![image](https://github.com/user-attachments/assets/03d63e00-26d5-4fdb-a0f9-4bccd795146f)
+
   
 - 🔵 `GET` Obtener candidato por id
   
-  ![image](https://github.com/user-attachments/assets/d01ae513-be50-4438-bb9b-c208fcf1f054)
+  ![image](https://github.com/user-attachments/assets/0cdd77ea-c087-4ef7-84bf-72a88b1b4115)
+
 
 - 🟢 `POST` Crear un nuevo candidato
   
-   ![image](https://github.com/user-attachments/assets/3a0833b8-084a-484c-aac0-9fff1c2a6e7e)
+  ![image](https://github.com/user-attachments/assets/a70fa758-17e3-4a97-830c-1b75966f9f80)
+
   
  - 🔴 `DELETE` Eliminar candidato por ID  
 
-   ![image](https://github.com/user-attachments/assets/ff8a5a1a-f90a-44f0-890b-dc7e004877ea)
+  ![image](https://github.com/user-attachments/assets/c5b28672-dd26-4b4d-a1ae-beac9865d4cc)
+
 
 ---
 
-- 🔵 `GET` Obtener lista de candidatos
+- 🔵 `GET` Obtener votos
 
-   ![image](https://github.com/user-attachments/assets/c7724089-2c2f-4aab-95b5-c60dd0b0ac33)
-  
-- 🔵 `GET` Obtener candidato por id
-  
-  ![image](https://github.com/user-attachments/assets/d01ae513-be50-4438-bb9b-c208fcf1f054)
+  ![image](https://github.com/user-attachments/assets/9c539b77-5199-40f6-a49b-6ee12c288b8e)
 
-- 🟢 `POST` Crear un nuevo candidato
   
-   ![image](https://github.com/user-attachments/assets/3a0833b8-084a-484c-aac0-9fff1c2a6e7e)
+- 🔵 `GET` Obtener estadisticas
   
- - 🔴 `DELETE` Eliminar candidato por ID  
+  ![image](https://github.com/user-attachments/assets/c581c743-7587-49bb-b640-3ecf888902b1)
 
-   ![image](https://github.com/user-attachments/assets/ff8a5a1a-f90a-44f0-890b-dc7e004877ea)
+
+- 🟢 `POST` Registrar voto
+- 
+  ![image](https://github.com/user-attachments/assets/12eb23e4-8ac7-446c-96a5-40847fa08ab1)
+
 
 ---
 ## 🛠️ TROUBLESHOOTING
