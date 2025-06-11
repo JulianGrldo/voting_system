@@ -5,4 +5,4 @@ pydantic
 python-jose[cryptography]
 passlib[bcrypt]
 pydantic[email]
---upgrade fastapi uvicorn
+
