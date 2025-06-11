@@ -94,7 +94,19 @@ uvicorn app.main:app --reload --port 8000
 ![image](https://github.com/user-attachments/assets/0aafa889-7242-4c33-bbee-8eb4c8429027)
 
 ---
+---
 
+## 📚 IMAGENES DE EJECUCION EN POSTMAN
+
+- 🔵 `GET` Obtener lista de votantes
+   ![image](https://github.com/user-attachments/assets/c7724089-2c2f-4aab-95b5-c60dd0b0ac33)
+
+- 🟢 `POST` Crear un nuevo votante
+   ![image](https://github.com/user-attachments/assets/3a0833b8-084a-484c-aac0-9fff1c2a6e7e)
+- 
+ 
+
+---
 ## 🛠️ TROUBLESHOOTING
 
 ### ❌ Error 500
