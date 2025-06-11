@@ -1,6 +1,7 @@
 # 🗳️ VOTING SYSTEM API
 
-API RESTful para gestionar un sistema de votaciones con votantes, candidatos y votos.
+
+Una API RESTful para manejar votaciones entre candidatos usando FastAPI y SQLite.
 
 ---
 
@@ -219,6 +220,15 @@ Metodos de postman
   
   ![image](https://github.com/user-attachments/assets/67a074c0-774f-4d00-aa38-5c9dfac2784e)
 
+
+## 🛠️ Tecnologías usadas
+- FastAPI
+
+-SQLite
+
+- SQLAlchemy
+
+- Uvicorn
 
 
 ---
