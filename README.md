@@ -91,6 +91,7 @@ uvicorn app.main:app --reload --port 8000
 ## 📚 DOCUMENTACIÓN INTERACTIVA
 
 - Swagger UI → [http://localhost:8000/docs](http://localhost:8000/docs)
+![image](https://github.com/user-attachments/assets/0aafa889-7242-4c33-bbee-8eb4c8429027)
 
 ---
 
