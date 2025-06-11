@@ -13,6 +13,10 @@ Usa Visual Studio Code o tu editor favorito:
 ```bash
 git clone https://github.com/JulianGrldo/voting_system.git
 ```
+### 1.1 IMPORTANTE
+
+A LA CARPETA APP SE LE DEBE CAMBIAR EL NOMBRE DE App a app por que si no da error
+
 
 ### 2. Instalar dependencias
 
