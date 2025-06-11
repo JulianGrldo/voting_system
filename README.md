@@ -99,15 +99,23 @@ uvicorn app.main:app --reload --port 8000
 ## 📚 DOCUMENTACIÓN INTERACTIVA
 
 - Swagger UI → [http://localhost:8000/docs](http://localhost:8000/docs)
-![image](https://github.com/user-attachments/assets/0aafa889-7242-4c33-bbee-8eb4c8429027)
+
+  
+  ![image](https://github.com/user-attachments/assets/0aafa889-7242-4c33-bbee-8eb4c8429027)
 
 ---
 
 ## 📚 IMAGENES DE EJECUCION EN POSTMAN
 
-Metodos de postman
+  -respuesta endpoints terminal    
+
+   ![image](https://github.com/user-attachments/assets/8964944b-3229-43ea-ae54-71f189d2d3b3)
+
+-Metodos de postman
 
    ![image](https://github.com/user-attachments/assets/6e9d3668-3f7b-422d-a75d-d558dd13371a)
+
+   
 
 
 - 🔵 `GET` Obtener lista de votantes
