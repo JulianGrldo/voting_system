@@ -1,6 +1,6 @@
 import logging
-from App.database import SessionLocal, engine, Base
-from App.models import Voter, Candidate
+from app.database import SessionLocal, engine, Base
+from app.models import Voter, Candidate
 
 
 logging.basicConfig(level=logging.INFO)
