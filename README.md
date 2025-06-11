@@ -98,59 +98,75 @@ uvicorn app.main:app --reload --port 8000
 
 ## 📚 IMAGENES DE EJECUCION EN POSTMAN
 
+Metodos de postman
+
+![image](https://github.com/user-attachments/assets/6e9d3668-3f7b-422d-a75d-d558dd13371a)
+
+
 - 🔵 `GET` Obtener lista de votantes
 
-   ![image](https://github.com/user-attachments/assets/c7724089-2c2f-4aab-95b5-c60dd0b0ac33)
+   ![image](https://github.com/user-attachments/assets/d99036b7-4f92-4297-bcac-f7c54be1c72c)
+
   
 - 🔵 `GET` Obtener votante por id
   
-  ![image](https://github.com/user-attachments/assets/d01ae513-be50-4438-bb9b-c208fcf1f054)
+  ![image](https://github.com/user-attachments/assets/4259a4ec-4e01-4972-a8ce-cf171fc05089)
+
 
 - 🟢 `POST` Crear un nuevo votante
   
-   ![image](https://github.com/user-attachments/assets/3a0833b8-084a-484c-aac0-9fff1c2a6e7e)
+   ![image](https://github.com/user-attachments/assets/78582d2a-6f75-47db-ac50-960173121b19)
+
 
 - 🔴 `DELETE` Eliminar votante por ID  
 
-   ![image](https://github.com/user-attachments/assets/ff8a5a1a-f90a-44f0-890b-dc7e004877ea)
+   ![image](https://github.com/user-attachments/assets/57a082a3-61eb-4604-bd38-857ead6ec417)
+
 
 ---
 
 - 🔵 `GET` Obtener lista de candidatos
 
-   ![image](https://github.com/user-attachments/assets/03d63e00-26d5-4fdb-a0f9-4bccd795146f)
+   ![image](https://github.com/user-attachments/assets/07f51ce9-fdad-4619-868b-6b9a1363bc70)
+
 
   
 - 🔵 `GET` Obtener candidato por id
   
-  ![image](https://github.com/user-attachments/assets/0cdd77ea-c087-4ef7-84bf-72a88b1b4115)
+  ![image](https://github.com/user-attachments/assets/529d40bc-5efc-4691-83ca-c993d2a70a6e)
+
 
 
 - 🟢 `POST` Crear un nuevo candidato
   
-  ![image](https://github.com/user-attachments/assets/a70fa758-17e3-4a97-830c-1b75966f9f80)
+  ![image](https://github.com/user-attachments/assets/7709fe82-d1c7-4245-920e-6e8d1fa14482)
+
 
   
  - 🔴 `DELETE` Eliminar candidato por ID  
 
-  ![image](https://github.com/user-attachments/assets/c5b28672-dd26-4b4d-a1ae-beac9865d4cc)
+  ![image](https://github.com/user-attachments/assets/c54db59d-99fa-4791-8487-b8545809263f)
+
 
 
 ---
 
 - 🔵 `GET` Obtener votos
 
-  ![image](https://github.com/user-attachments/assets/9c539b77-5199-40f6-a49b-6ee12c288b8e)
+  ![image](https://github.com/user-attachments/assets/c3ce1fbb-a553-46d1-bfca-0fec04dec27a)
+
 
   
 - 🔵 `GET` Obtener estadisticas
   
-  ![image](https://github.com/user-attachments/assets/c581c743-7587-49bb-b640-3ecf888902b1)
+  ![image](https://github.com/user-attachments/assets/ab0255f5-5426-42a0-ad5c-ec4b7d8bd59b)
+
 
 
 - 🟢 `POST` Registrar voto
-- 
-  ![image](https://github.com/user-attachments/assets/12eb23e4-8ac7-446c-96a5-40847fa08ab1)
+  
+  ![image](https://github.com/user-attachments/assets/67a074c0-774f-4d00-aa38-5c9dfac2784e)
+
 
 
 ---
