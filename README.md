@@ -169,7 +169,8 @@ Metodos de postman
   
   ![image](https://github.com/user-attachments/assets/40d88d49-b160-446d-80b4-1ec79d50e8e5)
 
-  json completo de la respuesta 
+  json completo de la respuesta
+```json
 {
     "statistics": [
         {
@@ -211,11 +212,6 @@ Metodos de postman
     ],
     "total_voters_voted": 15
 
-}
-```json
-{
-  "voter_id": 0,
-  "candidate_id": 0
 }
 ```
 
