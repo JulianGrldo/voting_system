@@ -1,6 +1,5 @@
-from . import models, schemas
 from sqlalchemy.orm import Session
-
+from . import models, schemas
 
 # Voter CRUD
 def create_voter(db: Session, voter: schemas.VoterCreate):
@@ -31,13 +30,11 @@ def create_candidate(db: Session, candidate: schemas.CandidateCreate):
     db.refresh(db_candidate)
     return db_candidate
 
-
+def get_candidate(db: Session, candidate_id: int):
+    return db.query(models.Candidate).filter(models.Candidate.id == candidate_id).first()
 
 def get_candidates(db: Session):
     return db.query(models.Candidate).all()
-
-def get_candidate(db: Session, candidate_id: int):
-    return db.query(models.Candidate).filter(models.Candidate.id == candidate_id).first()
 
 def delete_candidate(db: Session, candidate_id: int):
     db_candidate = get_candidate(db, candidate_id)
