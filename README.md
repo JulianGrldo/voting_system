@@ -61,7 +61,7 @@ uvicorn app.main:app --reload --port 8000
 
 ---
 
-### 📍 Candidatos (`http://localhost:8000/candidates/`)
+### 📍 Candidatos (`http://127.0.0.1:8000/candidates/`)
 
 - 🔵 `GET` Obtener lista de candidatos  
 - 🟢 `POST` Crear un nuevo candidato
