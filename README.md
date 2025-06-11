@@ -9,7 +9,7 @@ Una API RESTful para manejar votaciones entre candidatos usando FastAPI y SQLite
 
 ### 1. Clonar el repositorio
 
-Usa Visual Studio Code o tu editor favorito:
+Usa Visual Studio Code:
 
 ```bash
 git clone https://github.com/JulianGrldo/voting_system.git
