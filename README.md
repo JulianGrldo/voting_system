@@ -107,7 +107,7 @@ uvicorn app.main:app --reload --port 8000
 
 Metodos de postman
 
-![image](https://github.com/user-attachments/assets/6e9d3668-3f7b-422d-a75d-d558dd13371a)
+   ![image](https://github.com/user-attachments/assets/6e9d3668-3f7b-422d-a75d-d558dd13371a)
 
 
 - 🔵 `GET` Obtener lista de votantes
