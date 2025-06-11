@@ -170,9 +170,8 @@ Metodos de postman
   ![image](https://github.com/user-attachments/assets/40d88d49-b160-446d-80b4-1ec79d50e8e5)
 
   json completo de la respuesta 
-
-  {
-    "statistics": 
+{
+    "statistics": [
         {
             "candidate_id": 1,
             "candidate_name": "Sofía Ramírez",
@@ -209,10 +208,9 @@ Metodos de postman
             "votes": 1,
             "percentage": 6.67
         }
-,
+    ],
     "total_voters_voted": 15
 }
-
 
 - 🟢 `POST` Registrar voto
   
