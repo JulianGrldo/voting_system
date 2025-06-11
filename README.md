@@ -212,10 +212,12 @@ Metodos de postman
     "total_voters_voted": 15
 
 }
+```json
 {
-  "name": "string",
-  "party": "string"
+  "voter_id": 0,
+  "candidate_id": 0
 }
+```
 
 - 🟢 `POST` Registrar voto
   
