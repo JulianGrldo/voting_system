@@ -94,7 +94,6 @@ uvicorn app.main:app --reload --port 8000
   "candidate_id": 0
 }
 ```
-
 ---
 
 ## 📚 DOCUMENTACIÓN INTERACTIVA
@@ -102,7 +101,6 @@ uvicorn app.main:app --reload --port 8000
 - Swagger UI → [http://localhost:8000/docs](http://localhost:8000/docs)
 ![image](https://github.com/user-attachments/assets/0aafa889-7242-4c33-bbee-8eb4c8429027)
 
----
 ---
 
 ## 📚 IMAGENES DE EJECUCION EN POSTMAN
@@ -131,7 +129,6 @@ Metodos de postman
 
    ![image](https://github.com/user-attachments/assets/57a082a3-61eb-4604-bd38-857ead6ec417)
 
-
 ---
 
 - 🔵 `GET` Obtener lista de candidatos
@@ -155,7 +152,6 @@ Metodos de postman
  - 🔴 `DELETE` Eliminar candidato por ID  
 
   ![image](https://github.com/user-attachments/assets/c54db59d-99fa-4791-8487-b8545809263f)
-
 
 
 ---
@@ -220,16 +216,16 @@ Metodos de postman
   
   ![image](https://github.com/user-attachments/assets/67a074c0-774f-4d00-aa38-5c9dfac2784e)
 
+---
 
 ## 🛠️ Tecnologías usadas
 - FastAPI
 
--SQLite
+- SQLite
 
 - SQLAlchemy
 
 - Uvicorn
-
 
 ---
 ## 🛠️ TROUBLESHOOTING
