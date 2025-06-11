@@ -172,7 +172,7 @@ Metodos de postman
   json completo de la respuesta 
 
   {
-    "statistics": [
+    "statistics": 
         {
             "candidate_id": 1,
             "candidate_name": "Sofía Ramírez",
