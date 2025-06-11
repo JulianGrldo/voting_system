@@ -167,8 +167,51 @@ Metodos de postman
   
 - 🔵 `GET` Obtener estadisticas
   
-  ![image](https://github.com/user-attachments/assets/ab0255f5-5426-42a0-ad5c-ec4b7d8bd59b)
+  ![image](https://github.com/user-attachments/assets/40d88d49-b160-446d-80b4-1ec79d50e8e5)
 
+  json completo de la respuesta 
+
+  {
+    "statistics": [
+        {
+            "candidate_id": 1,
+            "candidate_name": "Sofía Ramírez",
+            "votes": 2,
+            "percentage": 13.33
+        },
+        {
+            "candidate_id": 2,
+            "candidate_name": "Pedro Sánchez",
+            "votes": 6,
+            "percentage": 40.0
+        },
+        {
+            "candidate_id": 3,
+            "candidate_name": "Lucía Fernández",
+            "votes": 3,
+            "percentage": 20.0
+        },
+        {
+            "candidate_id": 4,
+            "candidate_name": "Miguel Ángel",
+            "votes": 2,
+            "percentage": 13.33
+        },
+        {
+            "candidate_id": 5,
+            "candidate_name": "Diana Salazar",
+            "votes": 1,
+            "percentage": 6.67
+        },
+        {
+            "candidate_id": 6,
+            "candidate_name": "Andrés Pérez",
+            "votes": 1,
+            "percentage": 6.67
+        }
+,
+    "total_voters_voted": 15
+}
 
 
 - 🟢 `POST` Registrar voto
