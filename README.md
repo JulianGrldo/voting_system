@@ -107,11 +107,11 @@ uvicorn app.main:app --reload --port 8000
 
 ## 📚 IMAGENES DE EJECUCION EN POSTMAN
 
-  -respuesta endpoints terminal    
+- Respuesta endpoints terminal    
 
    ![image](https://github.com/user-attachments/assets/8964944b-3229-43ea-ae54-71f189d2d3b3)
 
--Metodos de postman
+- Metodos de postman
 
    ![image](https://github.com/user-attachments/assets/6e9d3668-3f7b-422d-a75d-d558dd13371a)
 
