@@ -6,6 +6,6 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Voting System API")
 
-app.include_router(voters.router)
-app.include_router(candidates.router)
-app.include_router(votes.router)
+App.include_router(voters.routers)
+App.include_router(candidates.routers)
+App.include_router(votes.routers)
