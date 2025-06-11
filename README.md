@@ -24,11 +24,36 @@ el proyecto ejecutar los siguientes comandos✨
    uvicorn app.main:app --reload --port 8000
 
  🌐 ENDPOINTS DISPONIBLES:
-   -------------------------
-   🔹 GET    http://localhost:8000/voters/
-   🔹 POST   http://localhost:8000/voters/
-   🔹 GET    http://localhost:8000/candidates/
-   🔹 POST   http://localhost:8000/votes/
+   ---------------------------------------------------
+   🔵 GET    http://localhost:8000/voters/
+   
+   🟢 POST  POST   http://localhost:8000/voters/
+   {
+      "name": "string",
+      "email": "user@example.com"
+   }
+   🔴 DELETE   http://localhost:8000/voters/4
+   
+   ----------------------------------------------------
+
+   🔵 GET    http://localhost:8000/candidates/
+   
+   🟢 POST  POST   http://localhost:8000/candidates/
+   {
+      "name": "string",
+      "party": "string"
+   }
+   🔴 DELETE   http://localhost:8000/candidates/4
+   ----------------------------------------------------
+
+   🔵 GET    http://localhost:8000/votes/
+
+   🟢 POST   http://localhost:8000/votes/
+   {
+      "voter_id": 0,
+      "candidate_id": 0
+   }
+
 
  📚 DOCUMENTACIÓN INTERACTIVA:
    ----------------------------
