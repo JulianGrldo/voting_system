@@ -25,6 +25,7 @@ Abre una terminal en la carpeta del proyecto y ejecuta:
 ```bash
 pip install -r requirements.txt
 ```
+reinicia visual para aplicar los paquetes instalados y no den fallos
 
 ### 3. Inicializar la base de datos
 
