@@ -114,6 +114,26 @@ uvicorn app.main:app --reload --port 8000
 
    ![image](https://github.com/user-attachments/assets/ff8a5a1a-f90a-44f0-890b-dc7e004877ea)
 
+---
+
+- 🔵 `GET` Obtener lista de candidatos
+
+   ![image](https://github.com/user-attachments/assets/c7724089-2c2f-4aab-95b5-c60dd0b0ac33)
+  
+- 🔵 `GET` Obtener candidato por id
+  
+  ![image](https://github.com/user-attachments/assets/d01ae513-be50-4438-bb9b-c208fcf1f054)
+
+- 🟢 `POST` Crear un nuevo candidato
+  
+   ![image](https://github.com/user-attachments/assets/3a0833b8-084a-484c-aac0-9fff1c2a6e7e)
+  
+ - 🔴 `DELETE` Eliminar candidato por ID  
+
+   ![image](https://github.com/user-attachments/assets/ff8a5a1a-f90a-44f0-890b-dc7e004877ea)
+
+---
+
 - 🔵 `GET` Obtener lista de candidatos
 
    ![image](https://github.com/user-attachments/assets/c7724089-2c2f-4aab-95b5-c60dd0b0ac33)
