@@ -1,7 +1,7 @@
 # 🗳️ VOTING SYSTEM API
 
 
-Una API RESTful para manejar votaciones entre candidatos usando FastAPI y SQLite.
+API RESTful para manejar votaciones entre candidatos usando FastAPI y SQLite.
 
 ---
 
