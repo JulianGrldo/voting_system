@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 # Voter CRUD Operations
 def create_voter(db: Session, voter: schemas.VoterCreate):
     try:
-        # Check if email already exists
+       
         existing_voter = db.query(models.Voter).filter(models.Voter.email == voter.email).first()
         if existing_voter:
             raise HTTPException(
