@@ -38,9 +38,10 @@ uvicorn app.main:app --reload --port 8000
 
 ## 🌐 ENDPOINTS DISPONIBLES
 
-### 📍 Votantes (`/voters/`)
+### 📍 Votantes (`http://localhost:8000/voters/`)
 
-- 🔵 `GET` Obtener lista de votantes  
+- 🔵 `GET` Obtener lista de votantes
+- 
 - 🟢 `POST` Crear un nuevo votante
 
 ```json
@@ -55,7 +56,7 @@ uvicorn app.main:app --reload --port 8000
 
 ---
 
-### 📍 Candidatos (`/candidates/`)
+### 📍 Candidatos (`http://localhost:8000/candidates/`)
 
 - 🔵 `GET` Obtener lista de candidatos  
 - 🟢 `POST` Crear un nuevo candidato
@@ -72,9 +73,10 @@ uvicorn app.main:app --reload --port 8000
 
 ---
 
-### 📍 Votos (`/votes/`)
+### 📍 Votos (`http://localhost:8000/votes/`)
 
-- 🔵 `GET` Obtener lista de votos  
+- 🔵 `GET` Obtener lista de votos
+- - 🔵 `GET` Obtener estadisticas de votos
 - 🟢 `POST` Registrar un voto
 
 ```json
