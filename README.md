@@ -210,6 +210,11 @@ Metodos de postman
         }
     ],
     "total_voters_voted": 15
+
+}
+{
+  "name": "string",
+  "party": "string"
 }
 
 - 🟢 `POST` Registrar voto
