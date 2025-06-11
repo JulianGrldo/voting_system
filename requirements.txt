@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+pip install pydantic[email]
+pip install --upgrade fastapi uvicorn
