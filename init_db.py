@@ -2,30 +2,46 @@ import logging
 from app.database import SessionLocal, engine, Base
 from app.models import Voter, Candidate
 
-# Configurar logging (para ver mensajes de error/info)
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 def init_db():
     db = SessionLocal()
     try:
-        # 1. Crear tablas si no existen
+
         Base.metadata.create_all(bind=engine)
 
-        # 2. Verificar si ya hay datos para no duplicar
-        if db.query(Voter).count() == 0:
-            # Datos de ejemplo para votantes
+        if db.query(Voter).count() == 0 and db.query(Candidate).count() == 0:
+            
             voters = [
                 Voter(name="Juan Pérez", email="juan@example.com"),
                 Voter(name="María García", email="maria@example.com"),
+                Voter(name="Luis Torres", email="luis@example.com"),
+                Voter(name="Ana Martínez", email="ana@example.com"),
+                Voter(name="Carlos Gómez", email="carlos@example.com"),
+                Voter(name="Laura Ruiz", email="laura@example.com"),
+                Voter(name="Jorge Herrera", email="jorge@example.com"),
+                Voter(name="Camila Díaz", email="camila@example.com"),
+                Voter(name="Santiago López", email="santiago@example.com"),
+                Voter(name="Daniela Castro", email="daniela@example.com"),
+                Voter(name="Felipe Ríos", email="felipe@example.com"),
+                Voter(name="Valentina Ortiz", email="valentina@example.com"),
+                Voter(name="Andrés Molina", email="andres@example.com"),
+                Voter(name="Paula Navarro", email="paula@example.com"),
+                Voter(name="Mateo Cárdenas", email="mateo@example.com"),
             ]
+
             
-            # Datos de ejemplo para candidatos
             candidates = [
                 Candidate(name="Sofía Ramírez", party="Partido Verde"),
                 Candidate(name="Pedro Sánchez", party="Partido Azul"),
+                Candidate(name="Lucía Fernández", party="Partido Rojo"),
+                Candidate(name="Miguel Ángel", party="Partido Amarillo"),
+                Candidate(name="Diana Salazar", party="Partido Naranja"),
+                Candidate(name="Andrés Pérez", party="Partido Independiente"),
             ]
-            
+
             # Insertar datos en la base de datos
             db.add_all(voters + candidates)
             db.commit()
